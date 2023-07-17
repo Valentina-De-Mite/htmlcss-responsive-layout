@@ -32,7 +32,7 @@ body {
 }
 
 [class^='col-'] {
-    padding: 0 1rem;
+    padding: 1.5rem 0.5rem;
 }
 
 .col-4 {
@@ -82,46 +82,74 @@ body {
     background-color: var(--rsp-light-heanvenly);
     border-radius: 1rem;
     margin-bottom: 1rem;
-    text-align: center;
     margin: auto;
     padding: 0 1rem;
+    height: 100%;
 }
 
-.card>h2 {
+.card-text>h2 {
     color: var(--rsp-heanvenly);
     padding: 2rem 0;
 }
 
-.card>p {
+.card-text>p {
     color: var(--rsp-footer);
-    text-align: left;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .bgc-blue {
     color: white;
     background-color: var(--rsp-heanvenly);
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     font-size: 20px;
     border-radius: 1.5rem;
     border: none;
     font-family: 'PT Sans', sans-serif;
-    margin: 2rem 0;
+    margin: 1rem 1rem;
+}
+
+.mobile {
+    justify-content: center;
+    display: flex;
 }
 
 .img-card {
-    width: 80%;
+    width: 65%;
     margin-top: 1rem;
-    margin-bottom: -0.5rem;
+
 }
 
-.fa-file-code {
+.fa-file-code,
+.fa-compass-drafting,
+.fa-laptop-code,
+.fa-bullhorn {
     color: var(--rsp-heanvenly);
-    font-size: 100px;
+    font-size: 80px;
+    padding-top: 2rem;
+}
+
+.card {
+    background-color: var(--rsp-light-heanvenly);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+/* .card-text {
+    width: 90%;
+    margin: auto;
+} */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
     text-align: center;
 }
 
-/* Moibile First */
+/* Mobile First */
 header {
     background-color: var(--rsp-heanvenly);
 }
@@ -162,14 +190,14 @@ header nav>.desktop_menu {
         width: 100%;
     }
 
-    .card {
-        background-color: var(--rsp-light-heanvenly);
-        border-radius: 1rem;
-        margin-bottom: 1rem;
-        text-align: left;
-        margin: auto;
-        padding: 0 1rem;
+    .img-card {
+        width: 60%;
     }
+
+    .mobile {
+        justify-content: left;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -180,6 +208,13 @@ header nav>.desktop_menu {
     header nav>.desktop_menu {
         display: block;
     }
+
+    .img-card {
+        width: 50%;
+        margin-top: 1rem;
+
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -193,6 +228,11 @@ header nav>.desktop_menu {
 
     .card {
         display: flex;
+    }
+
+    .img-card {
+        width: 85%;
+        padding-top: 4rem;
     }
 
 }
