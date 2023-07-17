@@ -70,7 +70,15 @@ body {
     text-decoration: none;
 }
 
-.bgc-white {
+.bg-white {
+    background-color: white;
+}
+
+.bg-purple {
+    background-color: var(--rsp-primary);
+}
+
+.bt-white {
     padding: 0.5rem;
     color: black;
     font-size: 1rem;
@@ -78,8 +86,12 @@ body {
     border: none;
 }
 
+
+
+
+
 .card {
-    background-color: var(--rsp-light-heanvenly);
+
     border-radius: 1rem;
     margin-bottom: 1rem;
     margin: auto;
@@ -87,17 +99,27 @@ body {
     height: 100%;
 }
 
+.card-planning {
+
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto;
+    padding: 0 1rem;
+    height: 100%;
+    width: 80%;
+}
+
 .card-text>h2 {
-    color: var(--rsp-heanvenly);
+
     padding: 2rem 0;
 }
 
 .card-text>p {
-    color: var(--rsp-footer);
+
     padding-bottom: 1.5rem;
 }
 
-.bgc-blue {
+.bt-blue {
     color: white;
     background-color: var(--rsp-heanvenly);
     padding: 0.5rem 3rem;
@@ -106,6 +128,22 @@ body {
     border: none;
     font-family: 'PT Sans', sans-serif;
     margin: 1rem 1rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: var(--rsp-footer);
+}
+
+.text-blue {
+    color: var(--rsp-heanvenly);
+}
+
+.fs-italic {
+    font-style: italic;
 }
 
 .mobile {
@@ -128,12 +166,22 @@ body {
     padding-top: 2rem;
 }
 
-.card {
+.bg-lightblue {
     background-color: var(--rsp-light-heanvenly);
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+}
+
+
+.circle {
+    width: 40px;
+    aspect-ratio: 1;
     margin: auto;
-    padding: 0 1rem;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.border-4 {
+    border-radius: 4rem;
 }
 
 /* .card-text {
@@ -147,6 +195,38 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-self-center {
+    align-self: center;
+}
+
+.flex {
+    display: flex;
+}
+
+/* .h-75 {
+
+    height: 75%;
+    align-self: flex-end;
+} */
+
+.h-25 {
+
+    height: 25%;
+
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.m-auto {
+    margin: auto;
 }
 
 /* Mobile First */
@@ -228,6 +308,10 @@ header nav>.desktop_menu {
 
     .card {
         display: flex;
+    }
+
+    .col-lg-6 {
+        width: calc(100% / 12 * 6);
     }
 
     .img-card {
