@@ -25,6 +25,10 @@ body {
     margin: auto;
 }
 
+p>a {
+    color: blue;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -123,12 +127,31 @@ body {
     width: 80%;
 }
 
-.w-40 {
+.w70 {
+    width: 70%;
+}
+
+.width-40 {
     font-size: 40px;
 }
 
-.card {
+.w-40 {
+    width: 40%;
+}
 
+.width-80 {
+    font-size: 80px;
+}
+
+.width-30 {
+    font-size: 30px;
+}
+
+.text-orange {
+    color: #FDC15F;
+}
+
+.card {
     border-radius: 1rem;
     margin-bottom: 1rem;
     margin: auto;
@@ -156,6 +179,15 @@ body {
 .bt {
     padding: 0.5rem 3rem;
     font-size: 20px;
+    border-radius: 1.5rem;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    margin: 1rem 1rem;
+}
+
+.bt1 {
+    padding: 1rem 3rem;
+    font-size: 30px;
     border-radius: 1.5rem;
     border: none;
     font-family: 'PT Sans', sans-serif;
@@ -225,6 +257,9 @@ body {
     background-color: var(--rsp-light-heanvenly);
 }
 
+.bg-footer {
+    background-color: var(--rsp-footer);
+}
 
 .circle {
     width: 40px;
