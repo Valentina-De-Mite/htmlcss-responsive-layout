@@ -228,6 +228,7 @@ p>a {
     width: 200px;
     aspect-ratio: 1;
     border-radius: 6rem;
+    object-fit: cover;
 }
 
 .fa-file-code,
