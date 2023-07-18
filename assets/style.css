@@ -79,6 +79,10 @@ body {
     background-color: var(--rsp-primary);
 }
 
+.bg-blue {
+    background-color: var(--rsp-heanvenly);
+}
+
 .bt-white {
     padding: 0.5rem;
     color: black;
@@ -89,6 +93,10 @@ body {
 
 .pd-b {
     padding-bottom: 1.5rem;
+}
+
+.pd-t {
+    padding-top: 2rem;
 }
 
 .mg-t {
@@ -126,17 +134,14 @@ body {
 }
 
 .card-text>h2 {
-
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 .card-text>p {
     padding-bottom: 1.5rem;
 }
 
-.bt-blue {
-    color: white;
-    background-color: var(--rsp-heanvenly);
+.bt {
     padding: 0.5rem 3rem;
     font-size: 20px;
     border-radius: 1.5rem;
@@ -243,6 +248,8 @@ body {
 .w-75 {
     width: 75%;
 }
+
+
 
 .fa-quote-right,
 .fa-quote-left {
