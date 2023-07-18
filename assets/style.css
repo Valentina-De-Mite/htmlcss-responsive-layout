@@ -99,8 +99,20 @@ body {
     padding-top: 2rem;
 }
 
+.pd-rl {
+    padding-right: 4rem;
+}
+
 .mg-t {
     margin-top: 2rem;
+}
+
+.mg-b {
+    margin-bottom: 2rem;
+}
+
+.mg-b1 {
+    margin-bottom: 1rem;
 }
 
 .m-auto {
@@ -184,7 +196,6 @@ body {
     width: 200px;
     aspect-ratio: 1;
     border-radius: 6rem;
-    img
 }
 
 .fa-file-code,
@@ -194,6 +205,20 @@ body {
     color: var(--rsp-heanvenly);
     font-size: 80px;
     padding-top: 2rem;
+}
+
+.chief {
+    position: relative;
+}
+
+.quote-v {
+    color: var(--rsp-primary);
+    position: absolute;
+    right: 40%;
+    top: 10%;
+    font-size: 60px;
+
+
 }
 
 .bg-lightblue {
